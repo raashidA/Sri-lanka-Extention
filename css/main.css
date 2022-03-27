@@ -1,0 +1,357 @@
+html {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/* IE 6 */
+
+* html .footer {
+	position: absolute;
+	top: expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight: document.body.clientHeight)+(ignoreMe document.documentElement.scrollTop ? document.documentElement.scrollTop: document.body.scrollTop))+'px');
+}
+
+body {
+	font-family: "Roboto Slab", sans-serif;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.iconlinks {
+	font-size: 50px;
+	text-align: center;
+	height: 150px;
+}
+
+.apparea {
+	height: auto;
+	padding-top: 80px;
+}
+
+.iconlinks a {
+	text-decoration: none;
+	color: #ea6528;
+}
+
+.iconlinks a:hover {
+	text-decoration: none;
+	color: #040707;
+}
+
+.iconlinks a span {
+	font-size: 15px;
+}
+
+.centericons {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.QuickLink {
+	margin: 0 auto;
+}
+
+.QuickLink div {
+	font-size: 35px;
+	text-align: center;
+	height: 30px;
+}
+
+.QuickLink div .facebook {
+	color: #fff;
+	/*    background-image: url(../images/icon-bg.png);*/
+}
+
+.QuickLink div .facebook:hover {
+	color: #3f5995;
+	background: none;
+}
+
+.QuickLink div .twitter {
+	color: #fff;
+}
+
+.QuickLink div .twitter:hover {
+	background: none;
+	color: #0097d4;
+}
+
+.QuickLink div .whatsapp {
+	color: #fff;
+	font-size: 30px;
+}
+
+.QuickLink div .whatsapp:hover{
+    background: none;
+    color: #24cc63;
+}
+
+.QuickLink div a .hashtag {
+	color: #fff;
+	font-size: 13px;
+	font-weight: normal;
+	position: relative;
+    top: -8px;
+    left: -8px;
+}
+
+.QuickLink div .instagram:hover {
+	background: none;
+	color: #0097d4;
+}
+
+.QuickLink div .linkedin {
+	color: #fff;
+}
+
+.QuickLink div .linkedin:hover {
+	background: none;
+	color: #007ab0;
+}
+
+.QuickLink div .googleapps {
+	background: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+.QuickLink div .googleapps:hover {
+	color: #222;
+}
+
+.QuickLink a {
+	text-decoration: none;
+}
+
+.QuickLink a:hover {
+	text-decoration: none;
+}
+
+.QuickLink a span {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.icon-bg {
+	border-radius: 50%;
+	padding: 25px;
+	border: 1px solid #ebebeb;
+}
+
+.icon-bg:hover {
+	border: 1px solid #d2d2d2;
+}
+
+.icon-bg-sm {
+	border-radius: 50%;
+	padding: 3px 3px 3px 3px;
+	/*    border: 1px solid #ebebeb;*/
+}
+
+.icon-bg-sm:hover {
+	/*    border: 1px solid #d2d2d2;*/
+	
+	background: #efebeb;
+}
+
+.icontext {
+	color: #999;
+	font-size: 20px !important;
+}
+/*Search*/
+
+.searchbox {
+	margin: 0 auto;
+	padding-top: 35px;
+	align-content: center;
+}
+
+.hiddentsearch {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-color: transparent;
+	box-shadow: none;
+	display: none;
+}
+
+.searchinput {
+	border-radius: 3px;
+	border: none;
+	height: 50px;
+	font-size: 18px;
+	font-weight: normal;
+	width: 100%;
+	padding-left: 13px;
+}
+
+button {
+	border: none;
+	z-index: 1;
+	padding: 10px 16px 8px 16px;
+	outline: none;
+	background: #f1f0f0;
+	border-radius: 3px;
+}
+
+.search-icon {
+	z-index: -1;
+	color: #222;
+	font-size: 32px;
+}
+
+.search-icon:hover {
+	color: #ccc;
+}
+/*Time */
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
+
+.outer-square {
+	overflow: hidden;
+}
+
+.outer-square:before {
+	content: "";
+	display: block;
+}
+
+.time{
+	text-transform: uppercase;
+	color: #fff;
+	font-family: "Roboto Slab", sans-serif;
+	padding-top: 15px;
+	margin: 0 auto;
+	width: 200px;
+	
+}
+
+.time h2 {
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 1;
+	margin-top: .25em;
+	float: left;
+	
+}
+
+.time h2 span {
+	font-weight: 100;
+}
+
+.time h3 {
+	font-size: 10px;
+	font-weight: 100;
+	line-height: 1;
+	margin-top: 15px;
+	float: left;
+	padding-left: 10px;
+	
+}
+
+.time h3 span {
+	font-size: 13px;
+	font-weight: 400;
+	display: block;
+}
+
+.time small {
+	font-size: 1em;
+	font-weight: 100;
+	opacity: 0.0;
+}
+
+.footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	opacity: 0.7;
+	color: #fff;
+	font-size: 8px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	font-family: "Roboto Slab", sans-serif;
+}
+
+.footer a{
+	color: #fff;
+}
+
+.footer a:hover{
+	color: darkcyan;
+}
+
+.timearea{
+	border-right: 1px solid #fff;
+}
+
+.random_text{
+	padding-left: 15px;
+	font-family: "Roboto Slab", sans-serif;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	height: 48px;
+}
+hr{
+	width: 100px;
+	margin-top: 0px !important;
+	margin-bottom: 10px !important;
+}
+
+.detailsarea{
+	background: #000;
+	height: 100%;
+}
+
+.credit-photo{
+	opacity: 0.3;
+}
+
+.helplink{
+    text-align: center;
+	
+}
+
+.helplink a{
+    color: #fff;
+    font-weight: 700;
+	padding:2px 10px;
+}
+
+.helplink a:hover{
+    color: #f1f0f0;
+    font-weight: 700;
+    text-decoration: none;
+	background-color: #222;
+	border-radius: 5px;
+	box-shadow: #0000005e 1px 0px 13px;
+}
+
